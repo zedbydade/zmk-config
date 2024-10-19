@@ -15,51 +15,61 @@
         workspace_1 {
             bindings = <&wp_1>;
             key-positions = <36 1>;
+            layers = <0>;
         };
 
         workspace_2 {
             bindings = <&wp_2>;
             key-positions = <36 2>;
+            layers = <0>;
         };
 
         workspace_3 {
             bindings = <&wp_3>;
             key-positions = <36 3>;
+            layers = <0>;
         };
 
         workspace_4 {
             bindings = <&wp_4>;
             key-positions = <36 4>;
+            layers = <0>;
         };
 
         workspace_5 {
             bindings = <&wp_5>;
             key-positions = <36 5>;
+            layers = <0>;
         };
 
         workspace_switch_1 {
             bindings = <&wp_s_1>;
             key-positions = <36 12 1>;
+            layers = <0>;
         };
 
         workspace_switch_2 {
             bindings = <&wp_s_2>;
             key-positions = <36 12 2>;
+            layers = <0>;
         };
 
         workspace_switch_3 {
             bindings = <&wp_s_3>;
             key-positions = <36 12 3>;
+            layers = <0>;
         };
 
         workspace_switch_4 {
             bindings = <&wp_s_4>;
             key-positions = <36 12 4>;
+            layers = <0>;
         };
 
         workspace_switch_5 {
             bindings = <&wp_s_5>;
             key-positions = <36 12 5>;
+            layers = <0>;
         };
     };
 
