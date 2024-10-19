@@ -16,6 +16,51 @@
             bindings = <&wp_1>;
             key-positions = <36 1>;
         };
+
+        workspace_2 {
+            bindings = <&wp_2>;
+            key-positions = <36 2>;
+        };
+
+        workspace_3 {
+            bindings = <&wp_3>;
+            key-positions = <36 3>;
+        };
+
+        workspace_4 {
+            bindings = <&wp_4>;
+            key-positions = <36 4>;
+        };
+
+        workspace_5 {
+            bindings = <&wp_5>;
+            key-positions = <36 5>;
+        };
+
+        workspace_switch_1 {
+            bindings = <&wp_s_1>;
+            key-positions = <36 12 1>;
+        };
+
+        workspace_switch_2 {
+            bindings = <&wp_s_2>;
+            key-positions = <36 12 2>;
+        };
+
+        workspace_switch_3 {
+            bindings = <&wp_s_3>;
+            key-positions = <36 12 3>;
+        };
+
+        workspace_switch_4 {
+            bindings = <&wp_s_4>;
+            key-positions = <36 12 4>;
+        };
+
+        workspace_switch_5 {
+            bindings = <&wp_s_5>;
+            key-positions = <36 12 5>;
+        };
     };
 
     macros {
@@ -24,6 +69,69 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_WIN &kp NUMBER_1>;
             label = "WP_1";
+        };
+
+        wp_2: wp_2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LCMD &kp NUMBER_2>;
+            label = "WP_2";
+        };
+
+        wp_3: wk_e {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LCMD &kp NUMBER_3>;
+            label = "WK_E";
+        };
+
+        wp_4: wp_4 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LCMD &kp NUMBER_4>;
+            label = "WP_4";
+        };
+
+        wp_5: wp_5 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LCMD &kp N5>;
+            label = "WP_5";
+        };
+
+        wp_s_1: wp_s_1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LCMD &kp LEFT_SHIFT &kp NUMBER_1>;
+            label = "WP_S_1";
+        };
+
+        wp_s_2: wp_s_2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LCMD &kp LEFT_SHIFT &kp NUMBER_2>;
+            label = "WP_S_2";
+        };
+
+        wp_s_3: wp_s_3 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LCMD &kp LEFT_SHIFT &kp NUMBER_3>;
+            label = "WP_S_3";
+        };
+
+        wp_s_4: wp_s_4 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LCMD &kp LEFT_SHIFT &kp NUMBER_4>;
+            label = "WP_S_4";
+        };
+
+        wp_s_5: wp_s_5 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LCMD &kp LEFT_SHIFT &kp N5>;
+            label = "WP_S_5";
         };
     };
 
